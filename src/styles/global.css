@@ -53,10 +53,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.hamburger {
-  display: none;
-}
-
 .nav-links a:hover,
 a:focus {
   background-color: #ff9776;
@@ -78,5 +74,9 @@ a:focus {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
